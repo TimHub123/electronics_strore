@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Roboto:wght@300&display=swap');
+
+* {
+    font-family: 'Comfortaa', cursive;
+}
+
+header {
+    padding: 10px;
+    font-size: 20px;
+}
+
+section {
+    margin: 12px 0;
+}
+
+h2 {
+    text-align: center;
+    padding: 10px;
+}
+
+.d-block {
+    height: 400px;
+    object-fit: none;
+}
+
+.badge {
+    position: absolute;
+    font-size: 16px;
+}
+
+.noprice {
+    text-decoration: line-through;
+    padding-right: 3px;
+    font-size: 10px;
+    color: darkgray;
+}
+
+.price {
+    font-size: 14px;
+}
+
+.card-img {
+    height: 300px;
+    object-fit: cover;
+}
+
+.shapka {
+    margin-bottom: 20px;
+}
+
+.card-text {
+    height: 192px;
+}
+
+footer {
+    margin: 10px 0;
+}
+
+.footer_ico {
+    padding: 0 30px;
+}
+
+.icon {
+    height: 60px;
+    transition: all 0.5s;
+}
+
+.icon_text {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.icon:hover {
+    opacity: 0.5;
+}
+
+.footer_ico {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-body .card-title {
+    height: 48px;
+}
