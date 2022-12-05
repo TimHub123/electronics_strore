@@ -142,6 +142,9 @@ nav {
     h4 {
         margin-bottom: 10px;
     }
+    .card-body .card-text {
+        height: 221px;
+    }
 }
 
 header {
