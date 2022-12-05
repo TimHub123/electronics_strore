@@ -4,11 +4,6 @@
     font-family: 'Comfortaa', cursive;
 }
 
-header {
-    padding: 10px;
-    font-size: 20px;
-}
-
 section {
     margin: 12px 0;
 }
@@ -53,7 +48,14 @@ h2 {
 }
 
 footer {
-    margin: 10px 0;
+    margin: 10px 0 0 0;
+    background-color: #023048;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 0;
+    color: white;
+    box-shadow: 0 0 3px black;
 }
 
 .footer_ico {
@@ -87,4 +89,72 @@ a {
 
 .card-body .card-title {
     height: 48px;
+}
+
+.card {
+    box-shadow: 0 0 1px black;
+    transition: all 0.5s;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+nav {
+    background: #023048;
+}
+
+.dropdown-menu {
+    background-color: #023048;
+}
+
+.navbar-brand img {
+    transition: all 0.5s;
+}
+
+.navbar-brand img:hover {
+    opacity: 0.5;
+}
+
+.btn-submit, .col .btn {
+    color: orange;
+    border: 1px solid orange;
+}
+
+.div .btn:hover {
+    background-color: orange;
+    color: white;
+}
+
+.btn-submit:hover {
+    background-color: orange;
+    color: white;
+}
+
+.dropdown-item:hover {
+    background-color: #1F445A;
+}
+
+@media (max-width: 768px) {
+    .btn-sign {
+        margin-top: 10px;
+    }
+    h4 {
+        margin-bottom: 10px;
+    }
+}
+
+header {
+    box-shadow: 0 0 3px black;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+h5 {
+    text-align: center;
+}
+
+form p {
+    text-align: center;
 }
