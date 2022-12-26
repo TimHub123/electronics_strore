@@ -116,12 +116,12 @@ nav {
     opacity: 0.5;
 }
 
-.btn-submit, .col .btn {
+.col .btn {
     color: orange;
     border: 1px solid orange;
 }
 
-.div .btn:hover {
+.col .btn:hover {
     background-color: orange;
     color: white;
 }
@@ -129,6 +129,11 @@ nav {
 .btn-submit:hover {
     background-color: orange;
     color: white;
+}
+
+.btn-submit {
+    color: orange;
+    border: 1px solid orange;
 }
 
 .dropdown-item:hover {
